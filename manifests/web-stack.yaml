@@ -17,7 +17,7 @@ spec:
         image: nginx:latest
         resources:
           requests:
-            memory: "128Mi"
+            memory: "64Mi"
             cpu: "250m"    # 250 millicores (1/4 of a CPU core)
           limits:
             memory: "128Mi"
